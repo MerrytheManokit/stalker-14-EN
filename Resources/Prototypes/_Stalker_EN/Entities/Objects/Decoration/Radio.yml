@@ -125,3 +125,21 @@
   - type: Sprite
     sprite: _Stalker/Objects/Misc/casete.rsi
     state: c7
+
+      - type: entity
+  parent: BaseItem
+  id: CasseteGreyHairedBoy
+  suffix: Stalker, Cassette, (Grey Haired Boy)
+  name: Cassette "Grey Haired Boy"
+  description: A brand new cassette tape. It's believed to contain a song.
+  components:
+  - type: STWeight
+    self: 0.15
+  - type: Cassete
+    sound: /Audio/_Stalker/Music/Radio/Contributor/GreyHairedBoy.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker/Objects/Misc/casete.rsi
+    state: c7
